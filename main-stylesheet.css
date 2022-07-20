@@ -1,5 +1,13 @@
+/*COLORS:
+#161412
+#5a473a
+#c7bdb1
+#ddd9d6
+#ffffff
+*/
+
 .navigation-pane {
-    background-color: #eaffd0;
+    background-color: #212121;
     /*background-color: grey;*/
     text-align: center;
     margin-left: calc(50% - 50vw);
@@ -9,7 +17,7 @@
 }
 
 .navigation-pane a{
-    color: black;
+    color: #FFFFFF;
     text-align: center;
     font-size: 36px;
     /*float: right;*/
@@ -19,10 +27,10 @@
 .navigation-pane a:hover{
     /*background-color: lightgrey;*/
     /*color: #fefbea;*/
-    color: #fdd0ff;
+    color: #909090;
 }
 
 .navigation-pane a.active{
     /*background-color: grey;*/
-    color: darkmagenta;
+    color: #9615DB;
 }
