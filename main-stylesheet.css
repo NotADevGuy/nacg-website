@@ -1,11 +1,12 @@
 .navigation-pane {
     background-color: #212121;
-    /*background-color: grey;*/
     text-align: center;
     margin-left: calc(50% - 50vw);
     margin-right: calc(50% - 50vw);
-    margin-top: 25px;
-    padding: 15px;
+    margin-top: calc(50% - 50vw);
+    padding: 16px;
+    /*overflow: hidden;*/
+    overflow: hidden;
 }
 
 .navigation-pane a{
@@ -14,11 +15,21 @@
     font-size: 36px;
     /*float: right;*/
     padding: 15px 15px;
+    text-decoration: none;
+}
+
+.navigation-pane a.name {
+    color: #9615DB;
+    text-align: left;
+}
+
+.navigation-pane a.name:hover {
+    color: #FFFFFF;
 }
 
 .navigation-pane a:hover{
-    /*background-color: lightgrey;*/
-    /*color: #fefbea;*/
+    /*DONOTUSE background-color: lightgrey;*/
+    /*DONOTUSE color: #fefbea;*/
     color: #909090;
 }
 
@@ -26,3 +37,6 @@
     /*background-color: grey;*/
     color: #9615DB;
 }
+
+/* TODO NEW THINGS BELOW THIS*/
+
